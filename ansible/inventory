@@ -1,0 +1,8 @@
+[application_ec2]
+10.0.3.139
+[application_ec2:vars]
+ansible_user=ubuntu
+ansible_port = 22
+private_key_file= /home/ahmedabdelsalam/DevOps/jenkins/jenkins-final-task/test_keypair.pem
+
+ansible_ssh_common_args= '-o ProxyCommand="ssh -i /home/ahmedabdelsalam/DevOps/jenkins/jenkins-final-task/test_keypair.pem -W %h:%p -q ubuntu@3.236.182.194"'
