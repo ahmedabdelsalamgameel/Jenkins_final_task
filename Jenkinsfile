@@ -30,7 +30,7 @@ pipeline {
                 -e REDIS_PORT=6379 \
                 -e RDS_HOSTNAME=mysqldb.cpfst37s45nt.us-east-1.rds.amazonaws.com \
                 -e RDS_USERNAME="admin" \
-                -e RDS_PASSWORD="10321032" 
+                -e RDS_PASSWORD="10321032" \
                 -e RDS_PORT=3306 \
                 ahmedabdelsalam19/nodejs_app '
             }
